@@ -16,7 +16,7 @@ def new_game():
     # when you finish with debugger delete the line below
     # this will add a break point
 
-    # import pdb; pdb.set_trace()
+    import pdb; pdb.set_trace()
 
     player_cards = [draw_card(), draw_card()]
     dealer_cards = [draw_card(), draw_card()]
